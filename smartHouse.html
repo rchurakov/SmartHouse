@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Smart House Project
+		</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="./smartHouse.css" />
+	</head>
+	<body>
+		<div id="newdevice">
+				Add New Device<hr>
+				Device Name:<br>
+				<input id="namedevice" type="text" name="namedevice" placeholder="Enter Name" required><br>
+				Select Type:<br>
+				<select id="typedevice" name="typedevice">
+					<option value="_lamps">Lamp</option>
+					<option value="_gates">Gate</option>
+					<option value="_conds">Air Cond</option>
+				</select>
+				<input id="createdevbtn" type="button" value="Create"><hr>
+		</div>
+		<div id="root"></div>
+		<script src="./smartHouse.js"></script>
+	</body>
+</html>

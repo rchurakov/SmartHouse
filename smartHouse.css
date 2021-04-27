@@ -1,0 +1,90 @@
+.smartHouse {
+/*	border: 1px solid black;*/
+	/*float: left;*/
+	display: inline-block;
+	padding: 5px;
+	margin: 5px;
+}
+
+#newdevice {
+	float: left;
+	border: none;
+	box-sizing:border-box;
+	display: inline-block;
+	padding: 5px;
+	margin: 5px;
+}
+
+.bulb {
+	background-color: #eceff1;
+	border-top: 10px solid white;
+	/*float: left;
+	height: 50px;*/
+}
+
+.gate {
+	background-color: #eceff1;
+	border-top: 10px solid white;
+	/*float: left;
+	height: 50px;*/
+}
+
+.air {
+	background-color: #eceff1;
+	border-top: 10px solid white;
+	/*float: left;
+	height: 50px;*/
+}
+
+#lamps {
+	border: 1px solid black;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+#gates {
+	border: 1px solid black;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+
+#conditions {
+	border: 1px solid black;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+.delbtn {
+	background-color: #f44336;
+	color: white;
+	font-weight: bold;
+	border: 1px solid white;
+}
+	
+.statebtn{
+	background-color: #008CBA;
+	color: white;
+	border: 1px solid white;
+}
+
+.chpropbtn{
+	background-color: #4CAF50;
+	color: white;
+	font-weight: bold;
+	border: 1px solid white;
+}
+
+.chmodebtn{
+	background-color: #555555;
+	color: white;
+	font-weight: bold;
+	border: 1px solid white;
+}
+
+.on {
+	background-color: lime;
+}
+.off {
+	background-color: pink;
+}
