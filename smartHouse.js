@@ -38,21 +38,21 @@ SH.prototype.createDev = function (nameNewDev, typeNewDev) {
 };
 //Delete Devices-------------------------------------
 SH.prototype.delLamp = function (value) {
-	//delete this._lamps[pos];// - Некорректное удаление из Array: объект удаляется, но array.length не меняется
-	var pos = this._lamps.indexOf(value);
-	this._lamps.splice(pos, 1);
+	//var pos = this._lamps.indexOf(value);
+	//delete this._lamps[pos];// - method is not suitable: object removing from Array, but 'array.length' does not change
+	this._lamps.splice(value, 1);
 };
 
 SH.prototype.delGate = function (value) {
-	//delete this._gates[pos];// - Некорректное удаление из Array: объект удаляется, но array.length не меняется
-	var pos = this._gates.indexOf(value);
-	this._gates.splice(pos, 1);
+	//var pos = this._gates.indexOf(value);
+	//delete this._gates[pos];// - method is not suitable: object removing from Array, but 'array.length' does not change
+	this._gates.splice(value, 1);
 };
 
 SH.prototype.delCond = function (value) {
-	//delete this._conds[pos];// - Некорректное удаление из Array: объект удаляется, но array.length не меняется
-	var pos = this._conds.indexOf(value);
-	this._conds.splice(pos, 1);
+	//var pos = this._conds.indexOf(value);
+	//delete this._conds[pos];// - method is not suitable: object removing from Array, but 'array.length' does not change
+	this._conds.splice(value, 1);
 };
 //=============================================
 
